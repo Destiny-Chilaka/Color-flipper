@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Hex colors
+    </title>
+    <link rel="stylesheet" href="./css/output.css">
+</head>
+
+<body>
+    <nav class="w-full shadow h-16 items-center flex justify-center ">
+        <ul class="flex flex-row w-3/6 justify-between items-center">
+            <h4 class="text-blue-500 p-2 tracking-widest ">Color flipper</h4>
+            <li>
+                <a href="./simple.html" class="hover:text-blue-500 transition-colors ">Simple </a>
+                <a href="./hex.html" class="hover:text-blue-500 transition-colors ">Hex</a>
+
+            </li>
+
+        </ul>
+    </nav>
+    <main class="flex justify-center items-center min-h-screen">
+        <div class="flex flex-col">
+            <h2 class="bg-neutral-800 p-4 rounded text-xl text-white tracking-widest mb-2">
+                Background Color : <span class="text-blue-700 color"> #ffffff</span>
+            </h2>
+            <button class="py-2 px-4 rounded border w-2/6 m-auto border
+             active:border-purple-600 shadow active:shadow-purple-600" id="btn">Click
+                me</button>
+        </div>
+    </main>
+
+    <script src="./js/tailwindcss.js"></script>
+    <script src="./js/hex.js"></script>
+</body>
+
+</html>
